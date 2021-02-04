@@ -1,4 +1,5 @@
 #include <stdio.h>
+/*fkadeal*/
 int main(void)
 {
 puts("Size of a char: %lu byte(s)\n", sizeof(char));
