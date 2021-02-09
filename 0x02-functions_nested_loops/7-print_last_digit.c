@@ -1,7 +1,8 @@
 #include "holberton.h"
-
-
-
+/**
+* m
+* Return: the value n the last digit
+**/
 int print_last_digit(int n)
 {
   int ld = n % 10;
