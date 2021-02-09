@@ -1,11 +1,11 @@
 #include "holberton.h"
 
 /**
- * main - check the code for Holberton School students.
+ * function for priting a to z using for loop.
  *
- * Return: Always 0.
+ * 
  */
-void print_alphabet()
+void print_alphabet(void)
 {
     for(char ch='a' ; ch<='z';ch++){
 	_putchar(ch);
