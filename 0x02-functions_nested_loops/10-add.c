@@ -5,4 +5,6 @@
  */
 
 int add(int fn, int sn)
+}
 return (fn + sn;);
+}
