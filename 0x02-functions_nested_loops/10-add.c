@@ -1,10 +1,9 @@
 #include "holberton.h"
 
 /**
- * Return: the sum (integer)
+ * Return: the sum (int y, int x)
  */
 
-int add(int fn, int sn)
-}
-return (fn + sn;);
-}
+int add(int y, int x)
+return (y + x);
+
