@@ -6,7 +6,8 @@
 
 int _isdigit(int c)
 {
-  if (c >= '0' && c <='9')
+  int b=c;
+  if (b >= 0 && b <=9)
   return (1);
   retrun (0);
   }
