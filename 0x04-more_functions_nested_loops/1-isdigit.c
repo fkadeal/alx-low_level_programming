@@ -8,6 +8,9 @@ int _isdigit(int c)
 {
   int b=c;
   if (b >= 0 && b <=9)
+  {
   return (1);
+  }else{
   retrun (0);
   }
+}
