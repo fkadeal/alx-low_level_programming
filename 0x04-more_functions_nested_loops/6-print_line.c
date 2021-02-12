@@ -12,9 +12,14 @@ int i;
 for (i = 0; n <= n; i++)
 {
 if(i <=0)
+{
 _putchar('\n');
+}
+  else
+{
 _putchar('_');
 }
 _putchar('\n');
 }
+  
 }
