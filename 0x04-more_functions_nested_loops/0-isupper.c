@@ -3,10 +3,13 @@
 /**
 * return 1 if c is upercase or if not return 0
 **/
-int _isupper(int c){
+int _isupper(int c)
+{
   if(c =< 'Z' && c >= 'A')
   {
     return (1);
   }
-  return (0)
+  esle{
+  return (0);
+  }
 }
