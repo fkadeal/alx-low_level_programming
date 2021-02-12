@@ -1,4 +1,4 @@
-#inculde "holberton.h"
+#include "holberton.h"
 /**
 * checks for a digit 
 * return 1 " if c is number or digite , o otherwise ;
