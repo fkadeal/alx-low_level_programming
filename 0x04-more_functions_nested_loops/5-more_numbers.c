@@ -18,7 +18,9 @@ for (i = 0; i <= 14; i++)
 if(i <=9 )
 {
 _putchar(i+ '0');
-}else{
+}
+  else
+{
 _putchar('0' + i / 10);
 _putchar('0' + i % 10);
 }
