@@ -22,7 +22,7 @@ _putchar(i+ '0');
   else
 {
 _putchar('0' + i / 10);
-_putchar('0' + i % 10);
+//_putchar('0' + i % 10);
 }
 }
 _putchar('\n');
