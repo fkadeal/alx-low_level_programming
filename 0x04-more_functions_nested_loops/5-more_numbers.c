@@ -15,15 +15,10 @@ for (n = 1; n <= 10; n++)
 for (i = 0; i <= 14; i++)
 {
 
-if(i <=9 )
-{
-_putchar(i+ '0');
-}
-  else
-{
+
 _putchar('0' + i / 10);
 _putchar('0' + i % 10);
-}
+
 }
 _putchar('\n');
 }
