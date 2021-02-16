@@ -7,5 +7,5 @@ while (*str != '\0')
 	_putchar(*str);
 	str++;
 }
-printf("\n");
+_putchar('\n');
 }
