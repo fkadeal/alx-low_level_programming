@@ -1,0 +1,15 @@
+#include "holberton.h"
+#include <stdio.h>
+#include <string.h>
+
+/**
+ * *a funcion that returns the length of string
+ **/
+int _strlen(char *s)
+{
+	int lenG;
+	char sp=*s;
+	lenG= strlen(sp);
+	printf("this is just *s value now " lenG);
+	return (20);
+}
