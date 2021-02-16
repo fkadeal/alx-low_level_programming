@@ -1,10 +1,10 @@
 #include "holberton.h"
 /**
- * this is function to convert int parameters to
+ * reset_to_98 : this is function to convert int parameters to
  * 98
- * returns 
- */
-void reset_to_98(int *n)
+ *return
+ **/
+void reset_to_98(int *n) /*get var that can reset to 98*/
 {
 	*n = 98;
 }
