@@ -1,7 +1,7 @@
 #include "holberton.h"
-
-/*
- *print_rev - a function to make string reverse
+/**
+ * *print_rev - prints a string, in reverse
+ **@s: is string parametr 
  */
 
 void print_rev(char *s)
