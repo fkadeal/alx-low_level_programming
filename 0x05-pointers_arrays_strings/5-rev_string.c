@@ -7,7 +7,7 @@
 
 void rev_string(char *s)
 {
-	
+	/*
 	int x, i;
 	x = 0;
 	char *t = s, *d = s, p;
@@ -27,11 +27,14 @@ void rev_string(char *s)
 		*t = p;
 		t++;
 		d--;
-	}/*
-	int i, j;
+	}*/
+	int i, x, j;
 	char sriv[10];
+	while (s[x])
+	x++;
+
 	j = 0;
-	for (i = 8 ; i >= 0 ; i--)
+	for (i = x-1 ; i >= 0 ; i--)
 	{
 		sriv[j] = s[i];
 		j++;
@@ -39,5 +42,5 @@ void rev_string(char *s)
 	for (i = 0 ; i <= 10 ; i++)
 	{
 		s[i] = sriv[i];
-	}*/
+	}
 }
