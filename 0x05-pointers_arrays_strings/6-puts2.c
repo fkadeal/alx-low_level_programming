@@ -1,12 +1,18 @@
 #include "holberton.h"
+
 /**
-*puts2 - is functon that juump one to where
+**puts2 - print jump 1
+**@str: is string param
 */
 void puts2(char *str)
 {
-int l = 0, leng = 0;
-while (str[leng])
-_putchar(str[l]);
-l=leng + 2;
+int x = 0, i;
+while (str[x])
+len++;
+
+for (i = 0;i <= x ;i += 2 )
+_putchar(str[i])
+  
+_putchar('\n');
 
 }
