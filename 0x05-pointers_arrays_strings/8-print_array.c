@@ -1,4 +1,5 @@
 #include "holberton.h"
+#include <stdio.h>
 
 /**
  *  * print_array - outha print nmbers of an array of integers
@@ -10,10 +11,11 @@ void print_array(int *a, int n)
 {
 	int i=0;
 
-	while (i < n)
-		printf("%d", a[i]),
-			(i != n - 1) ? printf(", ") : 0;
-	i++;
-
+	for ( ; i < n ; i++)
+printf("%d ,", a[i]);
+	if(i != n - 1)
+	{
+	printf(", ");
+	}
 	putchar('\n');
-}
+	}
