@@ -1,0 +1,25 @@
+#include "holberton.h"
+#include "stdio.h"
+char *_strcat(char *dest, char *src)
+{
+	int di, si, i, sum;
+//	char catdisi[];
+	while (dest[di])
+	{di++;
+	}
+	while (src[si])
+	{
+		si++;
+	}
+		sum = di + si + 2;
+		char catdisi[sum];
+for (i = 0 ; i <= sum ; i++)
+{	if(i <= di-1)
+	catdisi[i] = src[i];
+
+	catdisi[i] = dest[i];
+}
+printf("%s",catdisi);
+return 'f';
+
+}
