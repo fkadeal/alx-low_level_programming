@@ -1,4 +1,9 @@
 #include "holberton.h"
+
+/**
+ * print_chessboard - print a chese board
+ * @a: char array
+ */
 void print_chessboard(char (*a)[8])
 {
 int x, y;
@@ -10,5 +15,4 @@ _putchar(a[x][y]);
 }
 _putchar('\n');
 }
-//_putchar('\n');
 }
