@@ -1,3 +1,4 @@
+#include <stdio.h>
 #include "holberton.h"
 /**
  *binary_to_uint - this function that convert to binary
