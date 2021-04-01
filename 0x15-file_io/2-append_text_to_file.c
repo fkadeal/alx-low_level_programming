@@ -5,6 +5,22 @@
 *@text_content: text or char that will append at the end of file
 *Return: expected -1 if error occord and 1 if run properly
 */
+
+#include "holberton.h"
+/**
+ * _strlen - function that gets the length of a string.
+ * @str: text received
+ * Return: total length of the string.
+ */
+size_t _strlen(char *str)
+{
+	size_t i;
+
+	for (i = 0; str[i] != '\0'; i++)
+		;
+
+	return (i);
+}
 int append_text_to_file(const char *filename, char *text_content)
 {
 int fd, opn;
