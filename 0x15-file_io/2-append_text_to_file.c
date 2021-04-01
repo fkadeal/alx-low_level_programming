@@ -21,32 +21,3 @@ int append_text_to_file(const char *filename, char *text_content)
 	close(fd);
 	return (1);
 }
-
-/**
-int append_text_to_file(const char *filename, char *text_content)
-{
-int fd, opn;
-if (filename == NULL)
-{
-return (-1);
-}
-
-opn = open(filename, O_WRONLY | O_APPEND);
-if (opn < 0)
-{
-return (-1);
-}
-
-if (text_content == NULL)
-{
-return (1);
-}else{
-fd = write(opn, text_content, _strlen(text_content));
-if (fd < 0)
-{
-return (-1);
-}
-close(opn);
-return (1);
-}
-**/
