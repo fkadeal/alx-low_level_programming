@@ -6,21 +6,21 @@
 *Return: expected -1 if error occord and 1 if run properly
 */
 
-#include "holberton.h"
-/**
- * _strlen - function that gets the length of a string.
- * @str: text received
- * Return: total length of the string.
- */
-size_t _strlen(char *str)
+int append_text_to_file(const char *filename, char *text_content)
 {
-	size_t i;
+	int fd = open(filename, O_APPEND | O_WRONLY), count = 0;
 
-	for (i = 0; str[i] != '\0'; i++)
-		;
-
-	return (i);
-}
+	if (!filename || fd == -1)
+		return (-1);
+	while (text_content && text_content[count])
+		count++;
+	if (!count)
+		return (1);
+	if (write(fd, text_content, count) == -1)
+		return (-1);
+	close(fd);
+	return (1);
+}/*
 int append_text_to_file(const char *filename, char *text_content)
 {
 int fd, opn;
@@ -46,4 +46,4 @@ return (-1);
 }
 close(opn);
 return (1);
-}
+}*/
