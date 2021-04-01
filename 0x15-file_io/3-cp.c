@@ -5,15 +5,7 @@
  * @argv: array of elements
  * Return: 0
  */
-#include "holberton.h"
 
-/**
- * main - copies the content of a file to another file
- *
- * @argc: argument count
- * @argv: argument vector
- * Return: 0 if successful or 97, 98, 99 or 100 if not
- */
 int main(int argc, char *argv[])
 {
 	int fd_to, fd_from, b, w;
