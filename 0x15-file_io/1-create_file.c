@@ -1,5 +1,4 @@
 #include "holberton.h"
-
 /**
  * create_file - creates a file
  *
@@ -7,7 +6,7 @@
  * @text_content: pointer to text content
  * Return: 1 on success or -1 otherwise
  */
- int create_file(const char *filename, char *text_content)
+int create_file(const char *filename, char *text_content)
 {
 	int fd = open(filename, O_CREAT | O_TRUNC | O_WRONLY, 0600), count = 0;
 
