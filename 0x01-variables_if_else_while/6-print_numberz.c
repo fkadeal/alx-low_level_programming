@@ -8,7 +8,8 @@
 int main(void)
 {
 for (int n=0; n < 10; n++)
-putchar('0' + n);
+putchar((num % 10) + '0');
+
 putchar('\n');
 return (0);
 }
